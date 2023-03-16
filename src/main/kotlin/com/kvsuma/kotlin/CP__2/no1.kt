@@ -5,15 +5,18 @@ fun main() {
     var total1 = 0
     var total2 = 0
 
-    for (i in arr[1]..arr[2]) {
-        if (i % 2 != 0) {
-            total1 += i
+    for (j in 1..1) {
+        for (i in arr[1]..arr[2]) {
+            if (i % 2 != 0) {
+                total1 += i
+            }
         }
-    }
-    for (i in arr[3]..arr[4]) {
-        if (i % 2 != 0) {
-            total2 += i
+        for (i in arr[3]..arr[4]) {
+            if (i % 2 != 0) {
+                total2 += i
+            }
         }
+        break
     }
 
     println("Case 1 : $total1")
