@@ -1,4 +1,4 @@
-package com.kvsuma.kotlin
+package com.kvsuma.kotlin.CP_1
 
 
 fun main(args: Array<String>) {
@@ -43,6 +43,33 @@ fun main(args: Array<String>) {
         ),
         mapOf(
             "number" to 1
+        ),
+        mapOf(
+            "number" to 1,
+            "char" to "C"
+        ),
+        mapOf(
+            "number" to 5
+        ),
+        mapOf(
+            "number" to 5,
+            "char" to "E"
+        ),
+        mapOf(
+            "number" to 4,
+            "char" to "D"
+        ),
+        mapOf(
+            "number" to 3,
+            "char" to "C"
+        ),
+        mapOf(
+            "number" to 2,
+            "char" to "B"
+        ),
+        mapOf(
+            "number" to 1,
+            "char" to "A"
         )
     )
 
