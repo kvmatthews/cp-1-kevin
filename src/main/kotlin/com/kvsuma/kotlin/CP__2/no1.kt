@@ -5,7 +5,7 @@ fun main() {
     var total1 = 0
     var total2 = 0
 
-    for (j in 1..1) {
+    for (j in 1..arr[0]) {
         for (i in arr[1]..arr[2]) {
             if (i % 2 != 0) {
                 total1 += i
